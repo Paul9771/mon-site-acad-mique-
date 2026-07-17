@@ -289,3 +289,47 @@ h2 {
         width: 100%;
     }
 }
+
+/* ==========================================================================
+   ENTRETIEN ET ANIMATIONS (ACTUALITÉS DYNAMIQUES)
+   ========================================================================== */
+
+/* Style de la boîte de notification */
+.notification-box {
+    position: fixed;
+    bottom: -200px; /* Caché sous l'écran au départ */
+    right: 20px;
+    background-color: #ffffff;
+    border-left: 4px solid #d4af37; /* Votre ligne dorée académique */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    padding: 15px 20px;
+    border-radius: 4px;
+    width: 300px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    /* L'animation de transition fluide */
+    transition: bottom 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Classe qui sera ajoutée par JavaScript pour faire monter la boîte */
+.notification-box.afficher {
+    bottom: 20px;
+}
+
+/* Détails esthétiques */
+.notif-badge {
+    background-color: #d4af37;
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.notification-box h4 { margin: 5px 0; color: #333; }
+.notification-box p { font-size: 0.85rem; color: #666; margin-bottom: 10px; }
+.notif-lien { font-size: 0.85rem; color: #d4af37; text-decoration: none; font-weight: bold; }
+.notif-close { background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #aaa; }
+.notif-close:hover { color: #333; }
