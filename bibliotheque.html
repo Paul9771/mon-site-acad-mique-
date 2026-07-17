@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Bibliothèque - Mes Réflexions Académiques</title>
+    <link rel="icon" type="image/png" href="Favicon.png">
+    <!-- Liaison avec les icônes FontAwesome si vous en utilisez -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Liaison avec votre unique feuille de style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BARRE SUPÉRIEURE (NAVBAR UNIFIÉE) -->
+    <header class="barre-superieure">
+        <nav class="menu-navigation">
+            <a href="index.html">Actualités</a>
+            <a href="bibliotheque.html" class="active">Ma bibliothèque</a>
+            <a href="publications.html">Publications</a>
+            <a href="projets.html">Projets</a>
+            <a href="enseignements.html">Enseignements</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- CONTENU PRINCIPAL DE LA BIBLIOTHÈQUE -->
+    <main class="contenu-bibliotheque">
+        <section class="introduction-page">
+            <h1>Ma Bibliothèque & Recensions</h1>
+            <p class="sous-titre">Une sélection d'œuvres marquantes, de commentaires littéraires et de lectures recommandées pour l'étude de la langue et de la culture.</p>
+        </section>
+
+        <!-- GRILLE DES LIVRES -->
+        <section class="grille-livres">
+            
+            <!-- Exemple de fiche de livre 1 -->
+            <article class="carte-livre">
+                <div class="livre-visuel">
+                    <!-- Optionnel : Une icône de livre par défaut ou une image de couverture -->
+                    <i class="fa-solid fa-book-open icone-livre"></i>
+                </div>
+                <div class="livre-details">
+                    <span class="categorie-tag">Recension</span>
+                    <h3>Le classicisme et la modernité</h3>
+                    <p class="auteur">Auteur de l'œuvre • Édition</p>
+                    <p class="resume">Une analyse rigoureuse des structures stylistiques et de leur résonance contemporaine dans la transmission des savoirs.</p>
+                    <a href="#" class="bouton-lecture">Consulter la note de lecture →</a>
+                </div>
+            </article>
+
+            <!-- Exemple de fiche de livre 2 -->
+            <article class="carte-livre">
+                <div class="livre-visuel">
+                    <i class="fa-solid fa-graduation-cap icone-livre"></i>
+                </div>
+                <div class="livre-details">
+                    <span class="categorie-tag">Recommandation</span>
+                    <h3>Pédagogie de la langue et de la transmission</h3>
+                    <p class="auteur">Auteur de l'œuvre • Édition</p>
+                    <p class="resume">Étude approfondie sur l'éveil de la sensibilité linguistique chez les élèves du niveau secondaire supérieur.</p>
+                    <a href="#" class="bouton-lecture">Consulter la note de lecture →</a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
