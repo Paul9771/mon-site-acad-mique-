@@ -458,16 +458,18 @@ h2 {
     margin-bottom: 40px;
     border-bottom: 1px solid #eee;
     padding-bottom: 20px;
+    background:#eeeded;
+    background-color: #ece7e7;
 }
 
 .entete-lecture h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: #1a2a4a;
     margin: 15px 0 10px 0;
 }
 
 .metadonnees {
-    color: #888;
+    color: #5a0505;
     font-size: 0.9rem;
     font-style: italic;
 }
@@ -475,7 +477,7 @@ h2 {
 .contenu-texte {
     font-size: 1.1rem;
     line-height: 1.75; /* Espace entre les lignes pour reposer les yeux */
-    color: #333;
+    color: #070101;
 }
 
 .contenu-texte h2 {
